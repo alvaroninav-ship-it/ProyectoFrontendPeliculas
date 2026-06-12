@@ -1,10 +1,7 @@
 //muestra información básica del usuario autenticado y permite cerrar sesión.
 // Navegación entre rutas
-import { useNavigate } from 'react-router-dom'
-// Hook autenticación global
-import { useAuth } from '../context/AuthContext'
-import { useContext } from "react";
-import { UserContext } from "../context/UserContext";
+
+
 import NavbarPartMovies from './navbarPartMovies';
 import NavbarPartUser from './navbarPartUser';
 

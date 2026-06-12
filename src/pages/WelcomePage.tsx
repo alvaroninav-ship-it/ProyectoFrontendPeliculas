@@ -1,7 +1,7 @@
-import { useEffect, useState } from 'react'
+
 import Card from '../components/Card'
 import MovieCard from '../components/MovieCard'
-import { getMoviesRequest } from '../Api/MovieApi'
+
 import './WelcomePage.css'
 import Hero from '../components/Hero'
 import Footer from '../components/footer'

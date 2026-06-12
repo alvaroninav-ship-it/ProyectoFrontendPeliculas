@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react'
 
 import MovieCard from '../components/MovieCard'
 import { getMoviesRequest } from '../Api/MovieApi'
-import { Link } from 'react-router-dom'
-import Button from '../components/Button'
+
 import { Helmet } from 'react-helmet-async'
 
 type Movie = {
@@ -19,7 +18,7 @@ const HomePage = () => {
   const [movies, setMovies] = useState<Movie[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
-  const [search, setSearch] = useState('')
+  const [search] = useState('')
 
   useEffect(() => {
     loadMovies()
